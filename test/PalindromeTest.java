@@ -1,4 +1,4 @@
-package com.stackroute.unittest.pe1;
+package com.stackroute;
 
 import org.junit.After;
 import org.junit.Before;
