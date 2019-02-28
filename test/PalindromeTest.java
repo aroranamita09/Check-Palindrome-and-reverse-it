@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
- class PalindromeTest {
+public class PalindromeTest {
     Palindrome obj;
     @Before
     public void setUp() throws Exception {
