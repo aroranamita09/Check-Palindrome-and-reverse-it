@@ -4,7 +4,7 @@ package com.stackroute;
         b. Print success and failure messages for all 3 conditions*/
 import java.util.Scanner;
 
-public class Palindrome
+ class Palindrome
 {
     public static boolean checkSumOfEven(String numAsString)
     {
