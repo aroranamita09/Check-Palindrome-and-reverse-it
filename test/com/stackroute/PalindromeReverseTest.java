@@ -1,19 +1,20 @@
+package com.stackroute;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class PalindromeReverseTest {
+ class PalindromeReverseTest {
     @Test
     public void testReverseString() throws Exception{
         String expectedValue = "Yes";
         Palindrome data=new Palindrome();
-        String actualValue=data.IsPalindrome("namiman");
+        String actualValue=data.ReverseString("namiman");
         assertEquals(expectedValue, actualValue);
         @Test
         public void testReverseString() throws Exception{
             String expectedValue1 = "maniman";
             Palindrome var=new Palindrome();
-            String actualValue1=var.Reverse("namiman");
-            assertEquals(expectedValue, actualValue);
+            String actualValue1=var.ReverseString("namiman");
+            assertEquals(expectedValue, actualValue1);
     }
 }}
