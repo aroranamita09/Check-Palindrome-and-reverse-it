@@ -10,11 +10,12 @@ import static org.junit.Assert.*;
         Palindrome data=new Palindrome();
         String actualValue=data.ReverseString("namiman");
         assertEquals(expectedValue, actualValue);
+        }
         @Test
-        public void testReverseString() throws Exception{
+        public void testReverseAString() throws Exception{
             String expectedValue1 = "maniman";
             Palindrome var=new Palindrome();
             String actualValue1=var.ReverseString("namiman");
             assertEquals(expectedValue, actualValue1);
     }
-}}
+}
