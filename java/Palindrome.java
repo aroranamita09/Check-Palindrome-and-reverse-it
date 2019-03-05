@@ -9,13 +9,7 @@ public class Palindrome
     public static boolean checkSumOfEven(String numAsString)
     {
         int i, sum = 0;
-        for(i=0; i<numAsString.length(); i++)
-        {
-            if (Character.getNumericValue(numAsString.charAt(i)) % 2 == 0)
-            {
-                sum = sum + Character.getNumericValue(numAsString.charAt(i));
-            }
-        }
+       /*your code here*/
         if(sum > 25)
         {
             return true;
@@ -28,20 +22,7 @@ public class Palindrome
     public static boolean checkPalindrome(String numAsString)
     {
         int i, flag = 0;
-        for(i=0; i<numAsString.length(); i++)
-        {
-            if(numAsString.charAt(i) != numAsString.charAt(numAsString.length() - (i+1)))
-            {
-                flag = 1;
-            }
-        }
-        if(flag == 0)
-        {
-            return true;
-        }
-        else{
-            return false;
-        }
+       /*your code here*/
     }
 
     public String void check(String str)
