@@ -44,10 +44,9 @@ public class Palindrome
         }
     }
 
-    public static void main(String args[])
+    public String void check(String str)
     {
-        Scanner sc = new Scanner(System.in);
-        String str = sc.next();
+       
         if(str.matches("[0-9]+"))
         {
             if(checkPalindrome(str))
