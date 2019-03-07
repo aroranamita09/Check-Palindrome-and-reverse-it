@@ -2,11 +2,9 @@ package com.stackroute;
 /*Write a program which accepts a number as input and check whether the given number is palindrome or not If it is a palindrome then
         a. Add all the even numbers and check whether the sum is more than 25.
         b. Print success and failure messages for all 3 conditions*/
-import java.util.Scanner;
-
 public class Palindrome
 {
-    public static boolean checkSumOfEven(String numAsString)
+     boolean checkSumOfEven(String numAsString)
     {
         int i, sum = 0;
        /*your code here*/
@@ -25,7 +23,7 @@ public class Palindrome
        /*your code here*/
     }
 
-    public String void check(String str)
+    String  check(String str)
     {
        
         if(str.matches("[0-9]+"))
