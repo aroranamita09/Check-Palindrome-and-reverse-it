@@ -1,5 +1,5 @@
 package com.stackroute;
-
+import static org.junit.Assert.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,12 +10,12 @@ public class PalindromeTest {
     Palindrome obj;
     @Before
     public void setUp() throws Exception {
-        Palindrome obj = new Palindrome();
+        obj = new Palindrome();
     }
 
     @After
     public void tearDown() throws Exception {
-        Palindrome obj = null;
+        obj = null;
     }
 
     @Test
